@@ -97,9 +97,9 @@ This Power BI project provides an in-depth analysis of UK Railway data, focusing
 
 | Name | Role |
 |---|---|
-| Amr | Data Preparation & Cleaning Lead |
+| Amr Ahmed Farouk  | Data Preparation & Cleaning Lead |
 | Salma Ibrahim Omair | Data Modeling Lead & Report Storytelling & Interactivity |
 | Malak Wael | DAX & Measures Lead |
-| Rahma | Visuals & Dashboard Lead |
-| Mahmoud Ahmed | Testing, QA & Documentation Lead |
+| Rahma Osama Mohamed | Visuals & Dashboard Lead |
+| Mahmoud Ahmed Mahmoud| Testing, QA & Documentation Lead |
 | Alaa Mohamed Sayed & Salma Ibrahim | Presentation & Reporting Lead |
