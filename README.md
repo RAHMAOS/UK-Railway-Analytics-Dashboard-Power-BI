@@ -83,6 +83,24 @@ This Power BI project provides an in-depth analysis of UK Railway data, focusing
 | Busiest Route | Manchester Piccadilly → Liverpool Lime Street |
 | Top Delay Cause | Weather (32.9% of delays) |
 
+## 🖇️Product Analytics Concepts Applied
+
+Funnel: Purchase → Disruption → Refund
+31,653 purchased → 4,172 disrupted (13.2%) → 1,118 refund requests
+(26.8% of disrupted). Built with a stage table and a SWITCH measure.
+Slicers allow comparison by railcard, purchase type and ticket type.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ae5355f7-e1f5-4df2-9559-8a449fbecc1f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6d254eda-b923-48e3-a553-a4f0dcfea986" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2c5ed6c4-d3fb-4af4-857e-2056d9fb8f97" />
+
+👥 Cohort-style view: grouping tickets by purchase month and booking lead time showed February was the outlier.
+About 48% of February tickets were booked 2+ days ahead, versus roughly 3% in January and under 1% in March and April. 
+Booking lead time didn't predict disruption though: delay rates stayed around 13% in every bucket.
+
+Retention: not applicable
+The dataset has no customer identifier, so repeat behavior can't be tracked.
+With a customer ID, I would build cohort retention by first-purchase month.
+
 ## ⚡ Future Enhancements
 - Incorporate real-time data updates via Power BI Service scheduled refresh.
 - Implement predictive modeling for train delays using Python/R visuals in Power BI.
